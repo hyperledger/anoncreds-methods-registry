@@ -1,0 +1,28 @@
+{
+  "specs": [
+    {
+      "title": "AnonCreds Objects Methods Registry",
+      "spec_directory": "./registry",
+      "output_path": "./docs",
+      "markdown_paths": [
+        "header.md",
+        "status_copyright_toc.md",
+        "introduction.md",
+        "registry.md",
+        "method_legacy_indy.md",
+        "method_did_indy.md",
+        "method_http.md",
+        "method_cheqd.md",
+        "adding_a_registry_entry.md",
+        "governance.md"
+     ],
+      "logo": "https://raw.githubusercontent.com/AnonCreds-WG/anoncreds-spec/main/spec/images/logo/anoncreds_logo_horizontal.svg",
+      "logo_link": "https://github.com/AnonCreds-WG/anoncreds-objects-methods-registry",
+      "source": {
+        "host": "github",
+        "account": "AnonCreds-WG",
+        "repo": "anoncreds-objects-methods-registry"
+      }
+    }
+  ]
+}
