@@ -1,16 +1,18 @@
-# Adding a Registry Entry
+## Adding a Registry Entry
 
 To add a new AnonCreds Objects Methods Registry entry please:
 
-- Review the [Contributions policy](Contributing.md) for this repository.
-- Add a new registry entry by following these steps:
-  - Fork this repository.
-  - Copy the [`registry/method_template.md`](registry/method_template.md) file
-    to a new file in the `registry` folder, named as appropriate for the new
-    registry entry.
-  - Update the new file as appropriate for the AnonCreds Objects Methods
+- Review the [Governance](#governance) section of this document that describes
+  who can add/update registry entries, how such updates get approved and
+  applied.
+- Create a pull request in the GitHub repository ([https://github.com/AnonCreds-WG/anoncreds-objects-methods-registry](https://github.com/AnonCreds-WG/anoncreds-objects-methods-registry)) that is the source for generating this webpage, by following these steps:
+  - Fork [the repository](https://github.com/AnonCreds-WG/anoncreds-objects-methods-registry).
+  - In your local fork, copy the [`registry/method_template.md`](https://github.com/AnonCreds-WG/anoncreds-objects-methods-registry/blob/main/registry/method_template.md) file
+    to a new file in the same `registry` folder, named as appropriate for the new
+    registry entry, prefix `method_`, and `.md` extension.
+  - Update the new file for the AnonCreds Objects Methods
     Registry entry you are adding.
-  - Update the [`specs.json`](./specs.json) file to include your entry in the
+  - Update the [`specs.json`](./specs.json) file to include your entry within the
     list of methods, in alphabetical order.
   - Test your updates as outlined below.
   - Submit a pull request with your changes.
@@ -25,21 +27,11 @@ folder of the `gh-pages` branch of this repository on each pull request merge
 See the [Governance](./Governance.md) document for information on how
 additions and updates to the Registry entries are processed.
 
-## Repository Issues and Updates
-
-If you have any questions, concerns or comments, please submit an Issue to this
-repository. If you see anything else in this repository that you think should be
-changed please submit a pull request.
-
-See the [Governance](./Governance.md) document for information on how issues in,
-and pull requests to, this repository, are processed Registry entries are
-processed.
-
-## Testing your Edits Locally
+### Testing your Edits Locally
 
 Full guidance for using Spec-Up is in its
 [repository](https://github.com/decentralized-identity/spec-up). The short
-version of the instructions to render this specification locally while you are
+version of the instructions to render the registry webpage locally while you are
 editing is:
 
 - Install the prerequisites: `node` and `npm`
