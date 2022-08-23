@@ -14,7 +14,7 @@ There are two types of content in the source repository for the registry:
     Objects methods.
   - The format of the entries MUST adhere to the guidelines defined in the
     [Method
-    Template](https://github.com/AnonCreds-WG/anoncreds-objects-methods-registry/registry/method_template.md).
+    Template](https://github.com/AnonCreds-WG/anoncreds-objects-methods-registry/blob/main/registry/method_template.md).
 - All other content in this document and [registry
   repository](https://github.com/AnonCreds-WG/anoncreds-objects-methods-registry)
   - Such content is managed by the AnonCreds Specification Working Group, and
