@@ -175,19 +175,21 @@ network itself is fully deployed and operational.</p>
 <li>Contact Website: <a path-0="cheqd.io"href="https://cheqd.io" >https://cheqd.io</a></li>
 <li>Specification: <a path-0="blog.cheqd.io"path-1="our-approach-to-resources-on-ledger-25bf5690c975"href="https://blog.cheqd.io/our-approach-to-resources-on-ledger-25bf5690c975" >https://blog.cheqd.io/our-approach-to-resources-on-ledger-25bf5690c975</a></li>
 </ul>
-<h1 id="adding-a-registry-entry"><a class="toc-anchor" href="#adding-a-registry-entry" >§</a> Adding a Registry Entry</h1>
+<h2 id="adding-a-registry-entry"><a class="toc-anchor" href="#adding-a-registry-entry" >§</a> Adding a Registry Entry</h2>
 <p>To add a new AnonCreds Objects Methods Registry entry please:</p>
 <ul>
-<li>Review the <a href="Contributing.md" >Contributions policy</a> for this repository.</li>
-<li>Add a new registry entry by following these steps:
+<li>Review the <a href="#governance" >Governance</a> section of this document that describes
+who can add/update registry entries, how such updates get approved and
+applied.</li>
+<li>Create a pull request in the GitHub repository (<a path-0="github.com"path-1="AnonCreds-WG"path-2="anoncreds-objects-methods-registry"href="https://github.com/AnonCreds-WG/anoncreds-objects-methods-registry" >https://github.com/AnonCreds-WG/anoncreds-objects-methods-registry</a>) that is the source for generating this webpage, by following these steps:
 <ul>
-<li>Fork this repository.</li>
-<li>Copy the <a path-0="method_template.md"href="registry/method_template.md" ><code>registry/method_template.md</code></a> file
-to a new file in the <code>registry</code> folder, named as appropriate for the new
-registry entry.</li>
-<li>Update the new file as appropriate for the AnonCreds Objects Methods
+<li>Fork <a path-0="github.com"path-1="AnonCreds-WG"path-2="anoncreds-objects-methods-registry"href="https://github.com/AnonCreds-WG/anoncreds-objects-methods-registry" >the repository</a>.</li>
+<li>In your local fork, copy the <a path-0="github.com"path-1="AnonCreds-WG"path-2="anoncreds-objects-methods-registry"path-3="blob"path-4="main"path-5="registry"path-6="method_template.md"href="https://github.com/AnonCreds-WG/anoncreds-objects-methods-registry/blob/main/registry/method_template.md" ><code>registry/method_template.md</code></a> file
+to a new file in the same <code>registry</code> folder, named as appropriate for the new
+registry entry, prefix <code>method_</code>, and <code>.md</code> extension.</li>
+<li>Update the new file for the AnonCreds Objects Methods
 Registry entry you are adding.</li>
-<li>Update the <a path-0="specs.json"href="./specs.json" ><code>specs.json</code></a> file to include your entry in the
+<li>Update the <a path-0="specs.json"href="./specs.json" ><code>specs.json</code></a> file to include your entry within the
 list of methods, in alphabetical order.</li>
 <li>Test your updates as outlined below.</li>
 <li>Submit a pull request with your changes.</li>
@@ -202,17 +204,10 @@ folder of the <code>gh-pages</code> branch of this repository on each pull reque
 (using a GitHub Action), and then published (using GitHub Pages).</p>
 <p>See the <a path-0="Governance.md"href="./Governance.md" >Governance</a> document for information on how
 additions and updates to the Registry entries are processed.</p>
-<h2 id="repository-issues-and-updates"><a class="toc-anchor" href="#repository-issues-and-updates" >§</a> Repository Issues and Updates</h2>
-<p>If you have any questions, concerns or comments, please submit an Issue to this
-repository. If you see anything else in this repository that you think should be
-changed please submit a pull request.</p>
-<p>See the <a path-0="Governance.md"href="./Governance.md" >Governance</a> document for information on how issues in,
-and pull requests to, this repository, are processed Registry entries are
-processed.</p>
-<h2 id="testing-your-edits-locally"><a class="toc-anchor" href="#testing-your-edits-locally" >§</a> Testing your Edits Locally</h2>
+<h3 id="testing-your-edits-locally"><a class="toc-anchor" href="#testing-your-edits-locally" >§</a> Testing your Edits Locally</h3>
 <p>Full guidance for using Spec-Up is in its
 <a path-0="github.com"path-1="decentralized-identity"path-2="spec-up"href="https://github.com/decentralized-identity/spec-up" >repository</a>. The short
-version of the instructions to render this specification locally while you are
+version of the instructions to render the registry webpage locally while you are
 editing is:</p>
 <ul>
 <li>Install the prerequisites: <code>node</code> and <code>npm</code></li>
@@ -327,8 +322,11 @@ that it fits in the categories above for merging or cancellation.</p>
 <li><a href="#cheqd-anoncreds-objects-method" >cheqd AnonCreds Objects Method</a></li>
 </ul>
 </li>
-<li><a href="#repository-issues-and-updates" >Repository Issues and Updates</a></li>
+<li><a href="#adding-a-registry-entry" >Adding a Registry Entry</a>
+<ul>
 <li><a href="#testing-your-edits-locally" >Testing your Edits Locally</a></li>
+</ul>
+</li>
 <li><a href="#governance" >Governance</a>
 <ul>
 <li><a href="#repository-content" >Repository Content</a></li>
