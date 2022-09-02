@@ -224,30 +224,70 @@ you edit the source files.
 </ul>
 <p>Please test your edits locally before you submit a pull request!</p>
 <h2 id="governance"><a class="toc-anchor" href="#governance" >§</a> Governance</h2>
-<p>This registry is managed by the AnonCreds Working Group. In turn, the AnonCreds
-Working Group has delegated the Editors (also knowns as Committers, Maintainers)
-of this registry to ensure it is maintained in an effective, transparent and
-fair manner.</p>
-<h3 id="repository-content"><a class="toc-anchor" href="#repository-content" >§</a> Repository Content</h3>
+<p>This registry is managed by the <a path-0="github.com"path-1="AnonCreds-WG"href="https://github.com/AnonCreds-WG" >AnonCreds Specification Working
+Group</a>. The contents of the registry is
+maintained in a <a path-0="github.com"path-1="AnonCreds-WG"path-2="anoncreds-objects-methods-registry"href="https://github.com/AnonCreds-WG/anoncreds-objects-methods-registry" >GitHub
+repository</a>
+and managed through a pull request submission, review and approval process. The
+details of how pull requests are managed is outlined in this Governance section
+of the registry.</p>
+<h3 id="roles"><a class="toc-anchor" href="#roles" >§</a> Roles</h3>
+<ul>
+<li>
+<p>The <strong><a path-0="github.com"path-1="AnonCreds-WG"href="https://github.com/AnonCreds-WG" >AnonCreds Specification Working
+Group</a></strong> is the governing authority over this
+repository. Its members collaborate to approve and merge pull requests that
+result in changes to the Registry and the repository.</p>
+</li>
+<li>
+<p><strong>Editors</strong> are individuals delegated by the <a path-0="github.com"path-1="AnonCreds-WG"href="https://github.com/AnonCreds-WG" >AnonCreds Specification Working
+Group</a> to process issues and pull requests
+according to the rules defined in the <a href="#pull-request-handling" >Pull Request
+Handling</a> section of this document. Editors are given
+<a path-0="docs.github.com"path-1="en"path-2="organizations"path-3="managing-access-to-your-organizations-repositories"path-4="repository-roles-for-an-organization#repository-roles-for-organizations"href="https://docs.github.com/en/organizations/managing-access-to-your-organizations-repositories/repository-roles-for-an-organization#repository-roles-for-organizations" >GitHub Maintain and Admin
+roles</a>
+in the repository to manage their work.</p>
+</li>
+<li>
+<p><strong>Implementers</strong> are individuals or organizations that add their AnonCreds
+objects method to the registry. Implementers MUST follow the guidelines in the
+<a href="#adding-a-registry-entry" >Adding a Registry Entry</a> documentation in
+submitting pull requests to add or update their method.</p>
+</li>
+<li>
+<p><strong>Contributors</strong> are individuals that submit pull requests that propose
+changes to the registry or any part of the repository that is the source of the
+registry. Anyone with a GitHub account can be a contributor.</p>
+</li>
+<li>
+<p><strong>Readers</strong> are individuals that read the registry and use the information
+there in to move forward their use of AnonCreds.</p>
+</li>
+</ul>
+<h3 id="types-of-repository-content"><a class="toc-anchor" href="#types-of-repository-content" >§</a> Types of Repository Content</h3>
 <p>There are two types of content in the source repository for the registry:</p>
 <ul>
-<li>The entries in the <a href="#registry" >AnonCreds Objects Methods Registry</a>.
+<li>
+<p>The entries in the <a href="#registry" >AnonCreds Objects Methods Registry</a>.</p>
 <ul>
 <li>The content of the entries are managed by the implementers of the AnonCreds
 Objects methods.</li>
 <li>The format of the entries MUST adhere to the guidelines defined in the
 <a path-0="github.com"path-1="AnonCreds-WG"path-2="anoncreds-objects-methods-registry"path-3="blob"path-4="main"path-5="registry"path-6="method_template.md"href="https://github.com/AnonCreds-WG/anoncreds-objects-methods-registry/blob/main/registry/method_template.md" >Method
-Template</a>.</li>
+Template</a>, as defined by the <a path-0="github.com"path-1="AnonCreds-WG"href="https://github.com/AnonCreds-WG" >AnonCreds Specification Working
+Group</a>.</li>
 </ul>
 </li>
-<li>All other content in this document and <a path-0="github.com"path-1="AnonCreds-WG"path-2="anoncreds-objects-methods-registry"href="https://github.com/AnonCreds-WG/anoncreds-objects-methods-registry" >registry
-repository</a>
+<li>
+<p>All other content in the registry and <a path-0="github.com"path-1="AnonCreds-WG"path-2="anoncreds-objects-methods-registry"href="https://github.com/AnonCreds-WG/anoncreds-objects-methods-registry" >registry
+repository</a></p>
 <ul>
-<li>Such content is managed by the AnonCreds Specification Working Group, and
-includes things like this Governance section of the document, the format of
-the method entries, and so on.
+<li>Such content is governed by the <a path-0="github.com"path-1="AnonCreds-WG"href="https://github.com/AnonCreds-WG" >AnonCreds Specification Working
+Group</a>, and
+includes things like this Governance section of the registry, the format of
+the method entries, how the registry is published, and so on.
 <ul>
-<li>Anything about the management of this document may be changed through an
+<li>Anything about the management of the registry may be changed through an
 update to this type of content.</li>
 </ul>
 </li>
@@ -255,38 +295,47 @@ update to this type of content.</li>
 </li>
 </ul>
 <h3 id="pull-request-handling"><a class="toc-anchor" href="#pull-request-handling" >§</a> Pull Request Handling</h3>
-<p>The AnonCreds Specification Working Group MUST approve all changes to be merged
-into the registry (additions, updates and deletions) and into the rules for the
+<p>The <a path-0="github.com"path-1="AnonCreds-WG"href="https://github.com/AnonCreds-WG" >AnonCreds Specification Working
+Group</a> MUST approve all changes to be merged
+into the registry (additions, updates and deletions) and to the rules for the
 management (governance) of the registry.</p>
-<p>The AnonCreds Specification Working Group has delegated to the Editors (also
-known as committers, maintainers) the authority to merge pull requests of either
-type of content as follows:</p>
+<p>The <a path-0="github.com"path-1="AnonCreds-WG"href="https://github.com/AnonCreds-WG" >AnonCreds Specification Working Group</a> has
+delegated to the Editors the authority to merge pull requests of any <a href="#types-of-repository-content" >type of
+content</a> as follows:</p>
 <ul>
-<li>Based on an explicit vote of the AnonCreds Specification Working Group to merge the pull request; or</li>
-<li>When the change is simple editorial update that improves the content of any type; or</li>
-<li>When the pull request is to add or update a Registry method entry, and
+<li>Based on an explicit vote of the <a path-0="github.com"path-1="AnonCreds-WG"href="https://github.com/AnonCreds-WG" >AnonCreds Specification Working
+Group</a> to merge the pull request; or</li>
+<li>When, in the judgement of the Editors, the change is simple editorial update
+that improves the content of any type; or</li>
+<li>When the pull request is to add or update a Registry method entry, and, in the
+judgement of the Editors,
 <ul>
 <li>the entry adheres to the registry entry guidelines, and</li>
-<li>the links in the registry entries resolve to relevant content (e.g. the specification of the method), and</li>
-<li>there is some evidence that the submitter is related or sufficiently familiar with the work being done on the method.</li>
+<li>the links in the registry entries resolve to relevant content (e.g. the
+specification of the method), and</li>
+<li>there is some evidence that the submitter is related or sufficiently
+familiar with the work being done on the method.</li>
 </ul>
 </li>
 </ul>
-<p>The AnonCreds Specification Working Group has delegated to the Editors (also
-known as committers, maintainers) the authority to cancel pull requests of
-either type of content as follows:</p>
+<p>The <a path-0="github.com"path-1="AnonCreds-WG"href="https://github.com/AnonCreds-WG" >AnonCreds Specification Working Group</a> has
+delegated to the Editors the authority to cancel pull requests of either type of
+content as follows:</p>
 <ul>
-<li>Based on an explicit vote of the AnonCreds Specification Working Group to cancel the pull request; or</li>
-<li>When the change is spam or a mistake, or</li>
-<li>When the change is a simple editorial update that is either incorrect or does not improve the content, or</li>
+<li>Based on an explicit vote of the <a path-0="github.com"path-1="AnonCreds-WG"href="https://github.com/AnonCreds-WG" >AnonCreds Specification Working
+Group</a> to cancel the pull request; or</li>
+<li>When, in the judgement of the Editors, the change is spam or a mistake, or</li>
+<li>When, in the judgement of the Editors, the change is a simple editorial update
+that is either incorrect or does not improve the content</li>
 </ul>
-<p>The AnonCreds Specification Working Group has delegated to the Editors (also
-known as committers, maintainers) the authority to raise (for discussion or
-vote) to the AnonCreds Specification Working Group any other pull requests.
-Prior to the raising of a pull request to the AnonCreds Specification Working
-Group for processing, the Editors (and any other contributor) may work with the
-submitter of the pull request to clarify and/or improve the pull request such
-that it fits in the categories above for merging or cancellation.</p>
+<p>The <a path-0="github.com"path-1="AnonCreds-WG"href="https://github.com/AnonCreds-WG" >AnonCreds Specification Working Group</a> has
+delegated to the Editors the authority to raise (for discussion or vote) to the
+<a path-0="github.com"path-1="AnonCreds-WG"href="https://github.com/AnonCreds-WG" >AnonCreds Specification Working Group</a> any
+other pull requests. Prior to the raising of a pull request to the <a path-0="github.com"path-1="AnonCreds-WG"href="https://github.com/AnonCreds-WG" >AnonCreds
+Specification Working Group</a> for processing,
+the Editors (and any other contributor) may work with the submitter of the pull
+request to clarify and/or improve the pull request such that it fits in the
+categories above for merging or cancellation.</p>
 
                     </article>    
       
@@ -329,7 +378,8 @@ that it fits in the categories above for merging or cancellation.</p>
 </li>
 <li><a href="#governance" >Governance</a>
 <ul>
-<li><a href="#repository-content" >Repository Content</a></li>
+<li><a href="#roles" >Roles</a></li>
+<li><a href="#types-of-repository-content" >Types of Repository Content</a></li>
 <li><a href="#pull-request-handling" >Pull Request Handling</a></li>
 </ul>
 </li>
