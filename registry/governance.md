@@ -3,7 +3,7 @@
 This registry is managed by the [AnonCreds Specification Working
 Group](https://github.com/AnonCreds-WG). The contents of the registry is
 maintained in a [GitHub
-repository](https://github.com/AnonCreds-WG/anoncreds-objects-methods-registry)
+repository](https://github.com/AnonCreds-WG/anoncreds-methods-registry)
 and managed through a pull request submission, review and approval process. The
 details of how pull requests are managed is outlined in this Governance section
 of the registry.
@@ -24,7 +24,7 @@ roles](https://docs.github.com/en/organizations/managing-access-to-your-organiza
 in the repository to manage their work.
 
 - **Implementers** are individuals or organizations that add their AnonCreds
-  objects method to the registry. Implementers MUST follow the guidelines in the
+  method to the registry. Implementers MUST follow the guidelines in the
   [Adding a Registry Entry](#adding-a-registry-entry) documentation in
   submitting pull requests to add or update their method.
 
@@ -35,20 +35,21 @@ registry. Anyone with a GitHub account can be a contributor.
 - **Readers** are individuals that read the registry and use the information
 there in to move forward their use of AnonCreds.
 
-### Types of Repository Content
+### Types of Content
 
 There are two types of content in the source repository for the registry:
 
-- The entries in the [AnonCreds Objects Methods Registry](#registry).
-  - The content of the entries are managed by the implementers of the AnonCreds
-    Objects methods.
+- The entries in the [AnonCreds Methods Registry](#registry).
+  - The content of the entries are managed by the implementers of specific
+    AnonCreds methods.
   - The format of the entries MUST adhere to the guidelines defined in the
     [Method
-    Template](https://github.com/AnonCreds-WG/anoncreds-objects-methods-registry/blob/main/registry/method_template.md), as defined by the [AnonCreds Specification Working
+    Template](https://github.com/AnonCreds-WG/anoncreds-methods-registry/blob/main/registry/method_template.md),
+as defined by the [AnonCreds Specification Working
 Group](https://github.com/AnonCreds-WG).
 
 - All other content in the registry and [registry
-  repository](https://github.com/AnonCreds-WG/anoncreds-objects-methods-registry)
+  repository](https://github.com/AnonCreds-WG/anoncreds-methods-registry)
   - Such content is governed by the [AnonCreds Specification Working
 Group](https://github.com/AnonCreds-WG), and
     includes things like this Governance section of the registry, the format of
@@ -65,7 +66,7 @@ management (governance) of the registry.
 
 The [AnonCreds Specification Working Group](https://github.com/AnonCreds-WG) has
 delegated to the Editors the authority to merge pull requests of any [type of
-content](#types-of-repository-content) as follows:
+content](#types-of-content) as follows:
 
 - Based on an explicit vote of the [AnonCreds Specification Working
 Group](https://github.com/AnonCreds-WG) to merge the pull request; or
