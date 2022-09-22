@@ -1,12 +1,12 @@
-# The AnonCreds Objects Methods Registry
+# The AnonCreds Methods Registry
 
 ![AnonCreds Logo](https://raw.githubusercontent.com/AnonCreds-WG/anoncreds-spec/main/spec/images/logo/anoncreds_logo_horizontal.svg)
 
-This repository contains the source documents for the [AnonCreds Objects Methods
-Registry](https://anoncreds-wg.github.io/anoncreds-objects-methods-registry).
+This repository contains the source documents for the [AnonCreds Methods
+Registry](https://anoncreds-wg.github.io/anoncreds-methods-registry).
 The registry is referenced in the [AnonCreds
 Specification](https://anoncreds-wg.github.io/anoncreds-spec/). AnonCreds
-Objects Methods are ways of registering and resolving AnonCreds objects on
+Methods are ways of registering and resolving AnonCreds objects on
 specific Verifiable Data Registries (VDRs).
 
 This repository and the registry are managed by the AnonCreds Specification Working Group. For more

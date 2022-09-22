@@ -1,12 +1,12 @@
 {
-  "name": "anoncreds-objects-methods-registry",
-  "description": "AnonCreds Objects Methods Registry",
+  "name": "anoncreds-methods-registry",
+  "description": "AnonCreds Methods Registry",
   "version": "1.0.0",
   "homepage": "http://github.com/AnonCreds-WG",
   "license": "Apache 2",
   "repository": {
     "type": "git",
-    "url": "git://github.com/AnonCreds-WG/anoncreds-objects-methods-registry"
+    "url": "git://github.com/AnonCreds-WG/anoncreds-methods-registry"
   },
   "dependencies": {
     "spec-up": "^0.10.3"

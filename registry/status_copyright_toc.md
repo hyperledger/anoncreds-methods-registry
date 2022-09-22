@@ -5,7 +5,7 @@ It represents the consensus of the AnonCreds community.
 
 Information about the current status of this document, any errata,
 and how to provide feedback on it may be obtained at
-[https://github.com/AnonCreds-WG/anoncreds-objects-methods-registry](https://github.com/AnonCreds-WG/anoncreds-objects-methods-registry).
+[https://github.com/AnonCreds-WG/anoncreds-methods-registry](https://github.com/AnonCreds-WG/anoncreds-methods-registry).
 
 ## Copyright Notice
 

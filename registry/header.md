@@ -1,11 +1,11 @@
-AnonCreds Objects Methods Registry
+AnonCreds Methods Registry
 ==================
 
 **Registry Status**: v0.1 Draft
 
-**Latest Draft:**
+**Source Content:**
 
-[https://github.com/AnonCreds-WG/anoncreds-objects-methods-registry](https://github.com/AnonCreds-WG/anoncreds-objects-methods-registry)
+[https://github.com/AnonCreds-WG/anoncreds-methods-registry](https://github.com/AnonCreds-WG/anoncreds-methods-registry)
 
 **Editors:**
 
@@ -18,8 +18,8 @@ AnonCreds Objects Methods Registry
 
 **Participate:**
 
-~ [GitHub repo](https://github.com/AnonCreds-WG/anoncreds-objects-methods-registry)
-~ [Commit history](https://github.com/AnonCreds-WG/anoncreds-objects-methods-registry/commits/main)
+~ [GitHub repo](https://github.com/AnonCreds-WG/anoncreds-methods-registry)
+~ [Commit history](https://github.com/AnonCreds-WG/anoncreds-methods-registry/commits/main)
 ~ [Discord](https://discord.gg/hYmBNhTFY9)
 
 ------------------------------------
