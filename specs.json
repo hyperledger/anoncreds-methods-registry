@@ -1,7 +1,7 @@
 {
   "specs": [
     {
-      "title": "AnonCreds Objects Methods Registry",
+      "title": "AnonCreds Methods Registry",
       "spec_directory": "./registry",
       "output_path": "./docs",
       "markdown_paths": [
@@ -17,11 +17,11 @@
         "governance.md"
      ],
       "logo": "https://raw.githubusercontent.com/AnonCreds-WG/anoncreds-spec/main/spec/images/logo/anoncreds_logo_horizontal.svg",
-      "logo_link": "https://github.com/AnonCreds-WG/anoncreds-objects-methods-registry",
+      "logo_link": "https://github.com/AnonCreds-WG/anoncreds-methods-registry",
       "source": {
         "host": "github",
         "account": "AnonCreds-WG",
-        "repo": "anoncreds-objects-methods-registry"
+        "repo": "anoncreds-methods-registry"
       }
     }
   ]

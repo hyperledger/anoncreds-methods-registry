@@ -1,14 +1,14 @@
-### `did:indy` AnonCreds Objects Method
+### `did:indy` AnonCreds Method
 
-The `did:indy` AnonCreds objects method uses registration and resolution methods
+The `did:indy` AnonCreds method uses registration and resolution methods
 implemented in later Hyperledger Indy clients (such as those based on [Indy
-VDR](https://github.com/hyperledger/indy-vdr)). The `did:indy` AnonCreds objects
+VDR](https://github.com/hyperledger/indy-vdr)). The `did:indy` AnonCreds
 identifiers are URIs (to be precise DID URLs with path elements to identify the
-specific AnonCreds object), evolved from the identifiers used initially in
-Hyperledger Indy. The objects are registered and resolved using the same tools
-as the [Hyperledger Indy AnonCreds objects
-method](#hyperledger-indy-anoncreds-object-method), with the primary difference
-being the AnonCreds objects identifiers within the objects themselves.
+specific AnonCreds object type), evolved from the identifiers used in the initial
+Hyperledger Indy AnonCreds implementatation. The objects are registered and resolved using the same tools
+as the [Hyperledger Indy AnonCreds
+method](#hyperledger-indy-legacy-anoncreds-method), with the primary difference
+being the AnonCreds identifiers within the objects themselves.
 
 - Status: Not deployed
 - Verifiable Data Registry: Hyperledger Indy instances
