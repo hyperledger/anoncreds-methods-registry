@@ -2,11 +2,11 @@
   "name": "anoncreds-methods-registry",
   "description": "AnonCreds Methods Registry",
   "version": "1.0.0",
-  "homepage": "http://github.com/AnonCreds-WG",
+  "homepage": "http://github.com/hyperledger",
   "license": "Apache 2",
   "repository": {
     "type": "git",
-    "url": "git://github.com/AnonCreds-WG/anoncreds-methods-registry"
+    "url": "git://github.com/hyperledger/anoncreds-methods-registry"
   },
   "dependencies": {
     "spec-up": "^0.10.3"

@@ -1,11 +1,11 @@
 ## Status of This Registry
 
-This document is a product of the [AnonCreds Working Group](https://github.com/AnonCreds-WG).
+This document is a product of the [AnonCreds Working Group](https://github.com/hyperledger).
 It represents the consensus of the AnonCreds community.
 
 Information about the current status of this document, any errata,
 and how to provide feedback on it may be obtained at
-[https://github.com/AnonCreds-WG/anoncreds-methods-registry](https://github.com/AnonCreds-WG/anoncreds-methods-registry).
+[https://github.com/hyperledger/anoncreds-methods-registry](https://github.com/hyperledger/anoncreds-methods-registry).
 
 ## Copyright Notice
 
