@@ -9,4 +9,4 @@ document.
 
 For more information about AnonCreds ZKP verifiable credentials, please see the
 latest [AnonCreds
-Specification](https://anoncreds-wg.github.io/anoncreds-spec/).
+Specification](https://hyperledger.github.io/anoncreds-spec/).

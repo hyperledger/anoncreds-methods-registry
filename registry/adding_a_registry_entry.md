@@ -5,9 +5,9 @@ To add a new AnonCreds Methods Registry entry please:
 - Review the [Governance](#governance) section of this document that describes
   who can add/update registry entries, how such updates get approved and
   applied.
-- Create a pull request in the GitHub repository ([https://github.com/AnonCreds-WG/anoncreds-methods-registry](https://github.com/AnonCreds-WG/anoncreds-methods-registry)) that is the source for generating this webpage, by following these steps:
-  - Fork [the repository](https://github.com/AnonCreds-WG/anoncreds-methods-registry).
-  - In your local fork, copy the [`registry/method_template.md`](https://github.com/AnonCreds-WG/anoncreds-methods-registry/blob/main/registry/method_template.md) file
+- Create a pull request in the GitHub repository ([https://github.com/hyperledger/anoncreds-methods-registry](https://github.com/hyperledger/anoncreds-methods-registry)) that is the source for generating this webpage, by following these steps:
+  - Fork [the repository](https://github.com/hyperledger/anoncreds-methods-registry).
+  - In your local fork, copy the [`registry/method_template.md`](https://github.com/hyperledger/anoncreds-methods-registry/blob/main/registry/method_template.md) file
     to a new file in the same `registry` folder, named as appropriate for the new
     registry entry, prefix `method_`, and `.md` extension.
   - Update the new file for the AnonCreds Objects Methods
