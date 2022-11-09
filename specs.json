@@ -16,7 +16,7 @@
         "adding_a_registry_entry.md",
         "governance.md"
      ],
-      "logo": "https://raw.githubusercontent.com/hyperledger/anoncreds-spec/main/spec/images/logo/anoncreds_logo_horizontal.svg",
+      "logo": "https://raw.githubusercontent.com/hyperledger/anoncreds-spec/main/spec/images/logo/hl_anoncreds_colour.svg",
       "logo_link": "https://github.com/hyperledger/anoncreds-methods-registry",
       "source": {
         "host": "github",
