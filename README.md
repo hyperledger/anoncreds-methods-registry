@@ -1,6 +1,6 @@
 # The AnonCreds Methods Registry
 
-![AnonCreds Logo](https://raw.githubusercontent.com/hyperledger/anoncreds-spec/main/spec/images/logo/anoncreds_logo_horizontal.svg)
+![AnonCreds Logo](https://raw.githubusercontent.com/hyperledger/anoncreds-spec/main/spec/images/logo/hl_anoncreds_colour.svg)
 
 This repository contains the source documents for the [AnonCreds Methods
 Registry](https://hyperledger.github.io/anoncreds-methods-registry).
