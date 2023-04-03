@@ -9,4 +9,4 @@ The "In Development" below is the AnonCreds Method status. The [cheqd.io](https:
 - Contact Name: Ankur Banerjee
 - Contact Email: product@cheqd.io
 - Contact Website: [https://cheqd.io](https://cheqd.io)
-- Specification: [cheqd AnonCreds Object Method](https://docs.cheqd.io/identity/guides/resources/using-on-ledger-resources-to-support-anoncreds)
+- Specification: [cheqd AnonCreds Object Method](https://docs.cheqd.io/identity/guides/anoncreds)
