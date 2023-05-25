@@ -20,6 +20,6 @@ AnonCreds Methods Registry
 
 ~ [GitHub repo](https://github.com/hyperledger/anoncreds-methods-registry)
 ~ [Commit history](https://github.com/hyperledger/anoncreds-methods-registry/commits/main)
-~ [Discord](https://discord.gg/hYmBNhTFY9)
+~ [Discord](https://discord.gg/hyperledger)
 
 ------------------------------------
