@@ -4,21 +4,17 @@
   "version": "1.0.0",
   "homepage": "http://github.com/hyperledger",
   "license": "Apache 2",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/hyperledger/anoncreds-methods-registry"
-  },
-  "dependencies": {
-    "spec-up": "^0.10.3"
-  },
-  "devDependencies": {
-    "ace-custom-element": "1.6.5",
-    "ajv": "^6.12.5",
-    "mocha": "^10.1.0"
-  },
+  "main": "index.js",
   "scripts": {
-    "render": "node -e \"require('spec-up')({ nowatch: true })\"",
     "edit": "node -e \"require('spec-up')()\"",
-    "test": "mocha 'test/**/*.js'"
+    "render": "node -e \"require('spec-up')({ nowatch: true })\"",
+    "dev": "node -e \"require('spec-up')({ dev: true })\""
+  },
+  "bugs": {
+    "url": "https://github.com/hyperledger/anoncreds-methods-registry"
+  },
+  "homepage": "https://github.com/hyperledger/anoncreds-methods-registry",
+  "dependencies": {
+    "spec-up": "github:brianorwhatever/spec-up#master"
   }
 }

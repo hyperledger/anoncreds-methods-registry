@@ -11,6 +11,7 @@
         "registry.md",
         "method_legacy_indy.md",
         "method_did_indy.md",
+        "method_did_prism.md",
         "method_did_web.md",
         "method_http.md",
         "method_cheqd.md",
