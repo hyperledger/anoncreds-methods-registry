@@ -4,10 +4,6 @@
   "version": "1.0.0",
   "homepage": "http://github.com/hyperledger",
   "license": "Apache 2",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/hyperledger/anoncreds-methods-registry"
-  },
   "main": "index.js",
   "scripts": {
     "edit": "node -e \"require('spec-up')()\"",
